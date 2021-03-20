@@ -1,0 +1,10 @@
+fi:
+  show:
+    title: "Koronavirustodistuksen (COVID-19) tarkastus"
+    verification: "Todistus on voimassa"
+    data: ""
+    patient: "Potilas"
+    birthday: "Syntymävuosi"
+    covid: "Koronavirus COVID-19 (SARS-CoV-2, RNA)"
+    negative: "NEGATIIVINEN"
+    footer_link: "Palaa takaisin sivulle"

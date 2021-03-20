@@ -1,0 +1,10 @@
+cn:
+  show:
+    title: "COVID-19证明验真"
+    verification: "证明有效"
+    data: "取样日期"
+    patient: "患者"
+    birthday: "出生日期"
+    covid: "COVID-19冠状病毒（SARS-CoV-2，核酸）"
+    negative: "阴性"
+    footer_link: "返回网站"

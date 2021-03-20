@@ -1,0 +1,10 @@
+jp:
+  show:
+    title: "型コロナウイルス感染症（COVID-19）非感染証明書の確認"
+    verification: "本非感染証明書は有効です"
+    data: ""
+    patient: "患者"
+    birthday: "生年月日"
+    covid: "新型コロナウイルス感染症（COVID-19、SARS-CoV-2、RNA）"
+    negative: "陰性"
+    footer_link: "ウェブサイト に戻る"

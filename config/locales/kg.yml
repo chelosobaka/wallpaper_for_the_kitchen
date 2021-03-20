@@ -1,0 +1,10 @@
+kg:
+  show:
+    title: "COVID-19 маалым катын текшерүү"
+    verification: "Маалым кат анык"
+    data: ""
+    patient: "Пациент"
+    birthday: "Туулган күнү"
+    covid: "Коронавирус COVID-19 (SARS-CoV-2, РНК)"
+    negative: "ТЕРС"
+    footer_link: "сайтына кайтуу"

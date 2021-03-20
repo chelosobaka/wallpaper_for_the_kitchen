@@ -1,0 +1,10 @@
+ae:
+  show:
+    title: "التحقق من شهادات COVID-19"
+    verification: "الشهادة صالحة"
+    data: ""
+    patient: "المريض"
+    birthday: "سنة الميلاد"
+    covid: "فيروس كورونا COVID-19 (SARS-CoV-2 ،RNA - الحمض النووي الريبوزي)"
+    negative: "سلبية"
+    footer_link: "العودة إلى الموقع الإلكتروني"

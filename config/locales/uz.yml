@@ -1,0 +1,10 @@
+uz:
+  show:
+    title: "COVID-19 ma’lumotnomasini tekshirish"
+    verification: "Ma’lumotnoma haqiqiy"
+    data: ""
+    patient: "Bemor"
+    birthday: "Tug’ilgan yili"
+    covid: "COVID-19 (SARS-CoV-2, RNK) koronavirusi"
+    negative: "SALBIY"
+    footer_link: "Saytiga qaytish"

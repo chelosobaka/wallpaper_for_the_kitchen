@@ -1,0 +1,10 @@
+pt:
+  show:
+    title: "Verificação do laudo de COVID-19"
+    verification: "Laudo válido"
+    data: "Data de coleta da amostra"
+    patient: "Paciente"
+    birthday: "Ano de nascimento"
+    covid: "Coronavírus COVID-19 (SARS-CoV-2, RNA)"
+    negative: "NEGATIVO"
+    footer_link: "Voltar para o site"

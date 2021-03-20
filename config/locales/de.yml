@@ -1,0 +1,10 @@
+de:
+  show:
+    title: "Überprüfung der Gültigkeit der COVID-19-Bescheinigung"
+    verification: "Die Bescheinigung ist gültig."
+    data: "Datum der Probenahme"
+    patient: "Patient"
+    birthday: "Geburtsdatum"
+    covid: "Coronavirus COVID-19 (SARS-CoV-2, RNK)"
+    negative: "NEGATIV"
+    footer_link: "Zurück zur Website"

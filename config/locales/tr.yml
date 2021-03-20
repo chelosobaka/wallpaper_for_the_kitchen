@@ -1,0 +1,10 @@
+tr:
+  show:
+    title: "COVID-19 tahlil sonuç belgenin kontrolü"
+    verification: "belge geçerlidir"
+    data: ""
+    patient: "Hasta"
+    birthday: "Doğum yılı"
+    covid: "Coronavirus COVID-19 (SARS-CoV-2, RNA)"
+    negative: "NEGATİF"
+    footer_link: "Web sitesine geri dönün"

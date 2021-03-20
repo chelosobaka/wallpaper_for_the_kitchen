@@ -1,0 +1,10 @@
+it:
+  show:
+    title: "Verifica del certificato COVID-19"
+    verification: "Il certificato è valido"
+    data: "Data del prelievo"
+    patient: "Paziente"
+    birthday: "Anno di nascita"
+    covid: "Coronavirus COVID-19 (SARS-CoV-2, RNA)"
+    negative: "NEGATIVO"
+    footer_link: "Torna al sito"

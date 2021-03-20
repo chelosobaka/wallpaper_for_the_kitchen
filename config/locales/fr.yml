@@ -1,0 +1,10 @@
+fr:
+  show:
+    title: "Vérification de l’attestation de COVID-19"
+    verification: "Attestation valide"
+    data: "Date de prélèvement de l’échantillon"
+    patient: "Patient"
+    birthday: "Date de naissance"
+    covid: "Coronavirus COVID-19 (SARS-CoV-2, ARN)"
+    negative: "NÉGATIF"
+    footer_link: "Revenir au site"

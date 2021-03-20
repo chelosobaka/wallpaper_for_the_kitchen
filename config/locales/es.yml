@@ -1,0 +1,10 @@
+es:
+  show:
+    title: "Comprobación del certificado de COVID-19"
+    verification: "Certificado válido"
+    data: "Fecha de la muestra"
+    patient: "Paciente"
+    birthday: "Año de nacimiento"
+    covid: "Coronavirus COVID-19 (SARS-CoV-2, ARN)"
+    negative: "NEGATIVO"
+    footer_link: "Volver al sitio"

@@ -1,0 +1,10 @@
+kr:
+  show:
+    title: "COVID-19 검사 결과 확인서"
+    verification: "유효한 확인서"
+    data: ""
+    patient: "검사 대상자"
+    birthday: "출생년도"
+    covid: "코로나바이러스 COVID-19 (SARS-CoV-2, RNA)"
+    negative: "음성"
+    footer_link: "사이트로 돌아갑니다"

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)https://cov-id.helix.ru/ru/order/cf293a1f2bd90f6b2b1efbe69b31e162/verify -->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>COV-ID - ваш COVID-статус</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%= favicon_link_tag 'favicon.ico'%>
+  <link href="./COV-ID света_files/css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./COV-ID света_files/vue-select.5641eda5.css">
+  <link rel="stylesheet" href="./COV-ID света_files/components.dddd848a.css">
+  <link rel="stylesheet" href="./COV-ID света_files/order.4fe7f108.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <div id="root">
+        <div class="header">
+          <%= image_tag("logo.4c8fc5a1.png", class: "header-logo") %>
+          <div class="header-contacts">
+            <div>+7 (800) 700 03 03
+            </div>
+          </div>
+          <div class="header-language-select">
+            <div dir="auto" class="v-select vs--single vs--unsearchable select size-M">   <div id="vs1__combobox" role="combobox" aria-expanded="false" aria-owns="vs1__listbox" aria-label="Search for option" class="vs__dropdown-toggle">
+                <div class="vs__selected-options">
+                  <span class="vs__selected">
+                    <%= current_locale_dropdown(I18n.locale) %>
+                  </span>
+                  <input readonly="readonly" aria-autocomplete="list" aria-labelledby="vs1__combobox" aria-controls="vs1__listbox" type="search" autocomplete="off" class="vs__search">
+                </div>
+                <div class="vs__actions">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" role="presentation" class="vs__open-indicator">
+                    <path d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <div class="dropdown">
+                <ul id="my-drop-down-menu" class="hidden_dropdown" role="listbox" >
+                  <%= link_to user_path(@user, locale: 'ru') do %>
+                    <li id="option-0" class="vs__dropdown-option" role="option">
+                      <%= image_tag("russia.svg", class: "icon") %>
+                      <div class="label">Russian</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'en') do %>
+                    <li id="option-1" class="vs__dropdown-option" role="option">
+                      <%= image_tag("england.svg", class: "icon") %>
+                      <div class="label">English</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'cn') do %>
+                    <li id="option-2" class="vs__dropdown-option" role="option">
+                      <%= image_tag("china.svg", class: "icon") %>
+                      <div class="label">Chinese</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'es') do %>
+                    <li id="option-3" class="vs__dropdown-option" role="option">
+                      <%= image_tag("spain.svg", class: "icon") %>
+                      <div class="label">Spanish</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'it') do %>
+                    <li id="option-4" class="vs__dropdown-option" role="option">
+                      <%= image_tag("italy.svg", class: "icon") %>
+                      <div class="label">Italian</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'de') do %>
+                    <li id="option-5" class="vs__dropdown-option" role="option">
+                      <%= image_tag("germany.svg", class: "icon") %>
+                      <div class="label">German</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'fr') do %>
+                    <li id="option-6" class="vs__dropdown-option" role="option">
+                      <%= image_tag("france.svg", class: "icon") %>
+                      <div class="label">French</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'pt') do %>
+                    <li id="option-7" class="vs__dropdown-option" role="option">
+                      <%= image_tag("portugal.svg", class: "icon") %>
+                      <div class="label">Portuguese</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'tr') do %>
+                    <li id="option-8" class="vs__dropdown-option" role="option">
+                      <%= image_tag("turkey.svg", class: "icon") %>
+                      <div class="label">Turkish</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'ae') do %>
+                    <li id="option-9" class="vs__dropdown-option" role="option">
+                      <%= image_tag("united-arab-emirates.svg", class: "icon") %>
+                      <div class="label">Arabic</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'jp') do %>
+                    <li id="option-10" class="vs__dropdown-option" role="option">
+                      <%= image_tag("japan.svg", class: "icon") %>
+                      <div class="label">Japanese</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'fi') do %>
+                    <li id="option-11" class="vs__dropdown-option" role="option">
+                      <%= image_tag("finland.svg", class: "icon") %>
+                      <div class="label">Finnish</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'kr') do %>
+                    <li id="option-12" class="vs__dropdown-option" role="option">
+                      <%= image_tag("south-korea.svg", class: "icon") %>
+                      <div class="label">Korean</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'uz') do %>
+                    <li id="option-13" class="vs__dropdown-option" role="option">
+                      <%= image_tag("uzbekistan.svg", class: "icon") %>
+                      <div class="label">Uzbek</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'kg') do %>
+                    <li id="option-14" class="vs__dropdown-option" role="option">
+                      <%= image_tag("kyrgyzstan.svg", class: "icon") %>
+                      <div class="label">Kyrgyz</div>
+                    </li>
+                  <% end %>
+                  <%= link_to user_path(@user, locale: 'tj') do %>
+                    <li id="option-15" class="vs__dropdown-option" role="option">
+                      <%= image_tag("tajikistan.svg", class: "icon") %>
+                      <div class="label">Tajik</div>
+                    </li>
+                  <% end %>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="title"><%=I18n.t 'show.title' %>
+          </div><!---->
+          <div class="results">
+            <div class="verification"><%=I18n.t 'show.verification' %>
+            </div>
+            <div class="field">
+              <div class="field-label"><%=I18n.t 'show.data' %>
+              </div>
+              <div class="field-text"><%= format_date(@user.date, I18n.locale) %>
+              </div>
+            </div>
+            <div class="field">
+              <div class="field-label"><%=I18n.t 'show.patient' %>
+              </div>
+              <div class="field-text"><%= "#{family(@user.family_name)} #{@user.name.first}. #{@user.patronymic.first}." %>
+              </div>
+            </div>
+            <div class="field">
+              <div class="field-label"><%=I18n.t 'show.birthday' %>
+              </div>
+              <div class="field-text"><%=format_date(@user.birthday, I18n.locale) %>
+              </div>
+            </div>
+            <div class="covid-info"><%=I18n.t 'show.covid' %>
+            </div>
+            <div class="covid-status"><%=I18n.t 'show.negative' %>
+            </div>
+          </div><!----><!---->
+          <div class="back"><%=I18n.t 'show.footer_link' %>&nbsp;
+            <a href="http://cov-id.helix.ru/">cov-id.helix.ru
+            </a>
+          </div>
+        </div>
+      </div>
+      <script src="order.e13f63ff.js"></script>
+</body>
+</html>
